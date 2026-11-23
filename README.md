@@ -2,7 +2,19 @@
 
 An ultra-minimal, lightweight animated dark wallpaper engine built in Rust + `wgpu`.
 
+<p align="center">
+  <img src="assets/preview.gif" alt="Umbra animated dark wallpaper preview" width="720" />
+</p>
+
 Designed primarily for **Windows** (including setups where changing the system wallpaper is restricted), while remaining cross-platform on **macOS** and **Linux**. Unlike Chromium/WebView-based wallpaper engines, Umbra renders a single GPU shader triangle (or static image texture) in a tiny native binary with negligible CPU, GPU, and RAM usage.
+
+## Built-in Themes
+
+| Obsidian Drift | Midnight Aurora |
+| :---: | :---: |
+| ![Obsidian Drift](assets/obsidian-drift.png) | ![Midnight Aurora](assets/midnight-aurora.png) |
+| **Carbon Ember** | **Void Mist** |
+| ![Carbon Ember](assets/carbon-ember.png) | ![Void Mist](assets/void-mist.png) |
 
 ## Features
 
